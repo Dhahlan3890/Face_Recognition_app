@@ -49,9 +49,6 @@ This is a Python application built using the Tkinter GUI toolkit and OpenCV libr
 
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or bug fixes.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
