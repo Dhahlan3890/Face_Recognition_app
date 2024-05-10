@@ -70,14 +70,14 @@ class FaceRecognitionApp:
 
 
         self.master.geometry("1000x600")
-        self.master.configure(bg = "#344955")
+        self.master.configure(bg = "#FFFFFF")
 
         self.name = "Waiting ..."
 
 
         self.canvas = Canvas(
             master,
-            bg = "#344955",
+            bg = "#F5F5F5",
             height = 600,
             width = 1000,
             bd = 0,
@@ -91,7 +91,16 @@ class FaceRecognitionApp:
             0.0,
             1000.0,
             72.0,
-            fill="#E5BEEC",
+            fill="#3F2305",
+            outline="")
+        
+        self.canvas.place(x = 0, y = 0)
+        self.canvas.create_rectangle(
+            0.0,
+            72.0,
+            300.0,
+            600.0,
+            fill="#F2EAD3",
             outline="")
 
         self.canvas.create_text(
@@ -99,7 +108,7 @@ class FaceRecognitionApp:
             10.0,
             anchor="nw",
             text="ATTENDANCE SYSTEM",
-            fill="#1C1A1A",
+            fill="#FFFFFF",
             font=("InriaSans Bold", 40 * -1)
         )
 
@@ -111,29 +120,23 @@ class FaceRecognitionApp:
             image=self.image_image_1
         )
 
-        self.image_image_2 = PhotoImage(
-            file=relative_to_assets("image_2.png"))
-        self.image_2 = self.canvas.create_image(
-            227.0,
-            316.0,
-            image=self.image_image_2
-        )
+       
 
         self.canvas.create_text(
-            107.0,
-            169.0,
+            15.0,
+            189.0,
             anchor="nw",
             text="Click the button ",
-            fill="#FFFFFF",
-            font=("InriaSerif Bold", 32 * -1)
+            fill="#3F2305",
+            font=("InriaSerif Bold", 40 * -1)
         )
 
         self.canvas.create_text(
-            650.0,
+            500.0,
             465.0,
             anchor="nw",
             text= "Waiting ...",
-            fill="#FFFFFF",
+            fill="#3F2305",
             font=("InriaSerif Bold", 36 * -1)
         )
         
@@ -141,27 +144,27 @@ class FaceRecognitionApp:
         self.image_image_3 = PhotoImage(
             file=relative_to_assets("image_3.png"))
         self.image_3 = self.canvas.create_image(
-            730.0,
+            600.0,
             300.0,
             image=self.image_image_3
         )
 
         self.canvas.create_text(
-            78.0,
-            211.0,
+            25.0,
+            231.0,
             anchor="nw",
-            text="below to mark your ",
-            fill="#FFFFFF",
-            font=("InriaSerif Bold", 32 * -1)
+            text="below to mark",
+            fill="#3F2305",
+            font=("InriaSerif Bold", 40 * -1)
         )
 
         self.canvas.create_text(
-            135.0,
-            255.0,
+            10.0,
+            275.0,
             anchor="nw",
-            text="attendance",
-            fill="#FFFFFF",
-            font=("InriaSerif Bold", 32 * -1)
+            text="your attendance",
+            fill="#3F2305",
+            font=("InriaSerif Bold", 40 * -1)
         )
 
         self.button_image_1 = PhotoImage(
@@ -175,7 +178,7 @@ class FaceRecognitionApp:
         )
 
         self.button_1.place(
-            x=160.0,
+            x=100.0,
             y=378.0,
             width=100.0,
             height=40.0
@@ -189,25 +192,25 @@ class FaceRecognitionApp:
         self.image_image_3 = PhotoImage(
             file=relative_to_images(f"{self.name}.png"))
         self.image_3 = self.canvas.create_image(
-            730.0,
+            600.0,
             300.0,
             image=self.image_image_3
         )
 
         self.canvas.create_rectangle(
-            650.0,
+            500.0,
             465.0,
             900.0,
             520.0,
-            fill="#344955",
+            fill="#F5F5F5",
             outline="")
 
         self.canvas.create_text(
-            750.0,
+            590.0,
             465.0,
             anchor="n",
             text= "Hi " +self.name,
-            fill="#FFFFFF",
+            fill="#3F2305",
             font=("InriaSerif Bold", 36 * -1)
         )
     

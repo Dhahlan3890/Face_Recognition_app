@@ -4,7 +4,6 @@ import os
 import time
 
 
-
 ImageList = os.listdir('Images')
 Images = []
 
