@@ -28,7 +28,7 @@ This is a Python application built using the Tkinter GUI toolkit and OpenCV libr
 3. Run the application:
 
     ```bash
-    python face_recognition_attendance.py
+    python gui.py
     ```
 
 ## Usage
