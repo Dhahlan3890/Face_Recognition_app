@@ -33,7 +33,7 @@ This is a Python application built using the Tkinter GUI toolkit and OpenCV libr
 
 ## Usage
 
-1. Launch the application by running `face_recognition_attendance.py`.
+1. Launch the application by running `gui.py`.
 2. Click the button to start the attendance marking process.
 3. The system will use the webcam to capture images and recognize faces.
 4. Upon successful recognition, the person's name will be displayed, and attendance will be marked.
@@ -42,7 +42,7 @@ This is a Python application built using the Tkinter GUI toolkit and OpenCV libr
 ## Customization
 
 - Add more images to the `Images` folder for better face recognition accuracy.
-- Modify the GUI elements in `FaceRecognitionApp` class in `face_recognition_attendance.py` to suit your preferences.
+- Modify the GUI elements in `FaceRecognitionApp` class in `gui.py` to suit your preferences.
 - Adjust the duration of face recognition in the `open_camera_for_duration` function according to your needs.
 
 ## Contributing
