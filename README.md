@@ -16,7 +16,7 @@ This is a Python application built using the Tkinter GUI toolkit and OpenCV libr
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your_username/face-recognition-attendance.git
+    https://github.com/Dhahlan3890/Face_Recognition_app.git
     ```
 
 2. Install the required dependencies:
