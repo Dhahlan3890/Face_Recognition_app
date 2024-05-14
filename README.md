@@ -1,5 +1,8 @@
 # Face Recognition Attendance System
 
+![Face_Recognition](https://github.com/Dhahlan3890/Face_Recognition_app/assets/136912785/1431901d-0a74-4d1a-a435-9d45602f664f)
+
+
 ## Introduction
 
 This is a Python application built using the Tkinter GUI toolkit and OpenCV library for face recognition. It allows users to mark attendance by recognizing faces through a webcam. The system captures images, processes them, and matches them with stored images to identify individuals.
